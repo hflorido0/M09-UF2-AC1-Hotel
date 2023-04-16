@@ -1,92 +1,24 @@
-# AC1-Hotel-MultiThread
+## 0.METODOLOGIA DE TRABAJO
+
+- [ ] Cada uno de los apartados se realizará en un script ``.sql`` separado.
+- [ ] Los apartados **2, 3 y 10 se realizan en grupo**, es decir, se trabaja de manera conjunta en un único PC y se entrega un única
+fichero script ``.sql`` por cada apartado (3 ficheros en total).
+- [ ] Los apartados **4 a 9 se realizan en grupo, pero cada miembro del grupo tiene asignado una de las tareas**. Los grupos de 
+2 miembros solamente completan 2 de las 3 tareas. Por tanto, hay un ``.sql`` por cada tarea.
+- [ ] Cuando todo el código esté subido de cada tarea, se revisará por el professor y se fusionará en master si está correcto.
+- [ ] Se trabaja por ``issues`` que se puede ver en el siguiente apartad. Es obligatorio trabajar con ``issues`` y ``Merge Requests``.
 
 
+## 1.GIT
 
-## Getting started
+- [ ] Instalar DataGrip.
+- [ ] Clonar todos los miembros del grupo el proyecto creado en GIT en vuestro DataGrip.
+- [ ] Trabajar por ``issues`` y ``Merge Request`` para separar el trabajo correctamente.
+- [ ] El apartado **1** implica una nueva ``issue`` y, por lo tanto, una nueva ``Merge Request`` con los ficheros ``.dia`` e imagenes.
+- [ ] Cada apartado **2, 3 y 10** implica una nueva ``issue`` y, por lo tanto, una nueva ``Merge Request`` y un nuevo fichero ``.sql``.
+- [ ] Cada tarea de los apartados **del 4 al 9** implica una nueva ``issue`` y, por lo tanto, una nueva ``Merge Request`` y un nuevo fichero ``.sql`` por cada tarea, es decir, 3 por apartado.
+- [ ] Cada vez que se termina una ``issue`` se debe asignar la ``Merge Request`` generada al professor responsable de la corrección:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+    * [ ] Si está todo correcto se fusionará con ``main``.
+    * [ ] Si hay algún error se pondran comentarios en la ``Merge Request`` y se devolverá al alumno que la tenía assignada previamente para que la corrija.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/classesdocs/dam1t/m09/uf2/ac1-hotel-multithread.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/classesdocs/dam1t/m09/uf2/ac1-hotel-multithread/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
